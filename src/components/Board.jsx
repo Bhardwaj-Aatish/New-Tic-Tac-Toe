@@ -36,7 +36,7 @@ const Board = () => {
     return null;
   } 
 
-  const winner = calculateWinner(square)
+  const winner = calculateWinner(square);
   let status;
 
   if(winner) {
